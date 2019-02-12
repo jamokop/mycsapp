@@ -1,0 +1,5 @@
+long decode2(long x, long y, long z) 
+{
+	long t = y-z;
+	return (t*x) ^ (t << 63 >>63);
+}
